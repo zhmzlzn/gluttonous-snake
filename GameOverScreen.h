@@ -2,6 +2,7 @@
 #define GAME_OVER_SCREEN_H
 
 #include <SFML/Graphics.hpp>
+#include <vector>
 
 #include "Screen.h"
 
@@ -16,9 +17,12 @@ public:
 	void update(sf::Time delta) override;
 	void render(sf::RenderWindow& window) override;
 
+	//bool champion;
+
 private:
 	sf::Font font_;
 	sf::Text text_;
+	sf::Text congra_;
 
 	unsigned score_;
 };

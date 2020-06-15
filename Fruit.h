@@ -8,11 +8,12 @@ namespace sfSnake
 class Fruit
 {
 public:
-	Fruit(sf::Vector2f position = sf::Vector2f(0, 0));
+	Fruit(sf::Vector2f position = sf::Vector2f(0, 0), int type = 0);
 
 	void render(sf::RenderWindow& window);
 
 	sf::FloatRect getBounds() const;
+	int effect;
 
 private:
 	sf::CircleShape shape_;
