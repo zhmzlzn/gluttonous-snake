@@ -3,8 +3,7 @@
 - [编译环境说明](./编译环境说明.md)
 - [Github仓库](https://github.com/zhmzlzn/gluttonous-snake)
 ### 效果展示
-![](doc/MenuScreen.png)
-![](doc/GameScreen.png)
-![](doc/HighestScore.png)
-![](doc/MenuScreen.png)
-
+![MenuScreen](/doc/MenuScreen.png)
+![GameScreen](/doc/GameScreen.png)
+![HighestScore](/doc/HighestScore.png)
+![GameOverScreen](/doc/GameOverScreen.png)
